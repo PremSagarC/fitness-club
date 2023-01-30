@@ -1,0 +1,29 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-top: 1px solid var(--lightgray);
+}
+
+
+.icon-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 3rem 0 1rem 0;
+}
+
+.icon-images>img{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.logo-i{
+    transform: scale(0.6);
+    cursor: pointer;
+}
+
